@@ -1,0 +1,24 @@
+# a number of particles
+Npart=100
+# length of the box in m*10**10
+Lbox=100
+# mass of a particle in a.u.
+mass=39.948
+# LJ epsilon in units of k_B
+eps=125.7
+# LJ sigma in m*10**10
+sigma=3.344
+# temperatue in kelvins
+T=0.01
+# time step in fs
+dTiSt=2
+# a number of time steps
+NTiSt=200
+# cutoff radius (in sigmas)
+Rcut=3.0
+# switching parameter (in sigmas)
+Rl=2.5
+# in case one wants to save positions of particles at certain steps
+# otherwise, do not provide input for this variable
+#TiStPos=[1,10,20,30,40,50]
+   
